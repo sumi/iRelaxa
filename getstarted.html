@@ -1,0 +1,56 @@
+<html>
+<?xml version = "1.0"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script type="text/javascript">
+function displayForm() {
+document.getElementById("form1").style.visibility='visible';
+}
+</script>
+<script type="text/javascript">
+function displayForm1() {
+document.getElementById("form1").style.visibility='hidden';
+}
+</script>
+</head>
+<body>
+<div id="container">
+
+
+<div class="getStarted"></div>
+	<div style="position: absolute; top: 130px; left: 748px; z-index: 10; font-weight: bold; font-size: 14px;">Call 877-276-5104 or</div>
+	<div style="position: absolute; top: 150px; left: 755px; z-index: 11; width: 135px; cursor: pointer;" onclick="displayForm()">&nbsp;</div>
+	<div id="getstartedform" class="getStartedFlyOut">
+	<div align="right"><a href="javascript:displayForm1()" style="color: #1766A1; text-decoration: none;">X</a></div>
+	<form style="visibility:visible" id="form1" name="Spa_Professional" action="getstarted.php" method="POST">
+	<input type=hidden name="oid" value="00D600000006yCD">
+
+	<input type="hidden" name="retURL" value="">
+	<input type="hidden" id="lead_source" name="lead_source" value="" />
+	<input type="hidden" id="description" name="description" value="Get Started" />
+      <input id="00N60000001TDZr" maxlength="225" name="00N60000001TDZr" size="100" type="hidden" value="" />
+	<span style="font-weight:normal;">*Required fields</span><br /><br />
+	*First Name:
+	<input type="text" name="first_name" value=""  style="width: 120px; height: 18px; margin-bottom:5px; font-size: 12px;" /><br />
+
+	Last Name:
+	<input type="text" name="last_name" value="" style="width: 120px; height: 18px; margin-bottom:5px; font-size: 12px;" /><br />
+
+	Company:
+	<input type="text" name="company" value="" style="width: 120px; height: 18px; margin-bottom:5px; font-size: 12px;" /><br />
+
+	*Email:
+	<input type="text" id="email" name="email" value=""  style="width: 120px; height: 18px; margin-bottom:5px; font-size: 12px;" /><br />
+	*Phone:
+	<input type="text" name="phone" value=""  style="width: 120px; height: 18px; margin-bottom:5px; font-size: 12px;" /><br />
+	<input type="image" src="/images/submit.gif" width="76" height="23" border="0" alt="">
+				</form>
+
+
+	<div align="right"><a href="javascript:displayForm1()" style="color: #1766A1; text-decoration: none;">close</a></div>
+	</div>
+
+</body>
+</html>
